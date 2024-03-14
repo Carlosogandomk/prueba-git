@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Git</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section> 
+        <header>
+    
+        <h1 id="miH1">Haz clic aquí para cambiar el color</h1>
+
+<script>
+  const miH1 = document.getElementById('miH1');
+
+  miH1.addEventListener('click', function() {
+    const colores = ['red', 'blue', 'green', 'purple', 'orange'];
+    const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+    miH1.style.color = colorAleatorio;
+  });
+</script>
+        </header>
+    </section>
+</body>
+</html>
